@@ -1,0 +1,29 @@
+﻿p{
+    font-size: 1.2vw;
+}
+
+h3{
+    font-size: 1.7vw;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 0.3fr 0.4fr 0.3fr;
+    grid-template-rows: 100%;
+    grid-template-areas: 'autosell . header_buttons'
+}
+
+#name {
+    font-size: 3vw;
+}
+
+.logo {
+    height: 3.5vw;
+    width: 5vw;
+}
+
+.grid-item {
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    padding: 1.7em;
+}

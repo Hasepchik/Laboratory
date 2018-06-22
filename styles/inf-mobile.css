@@ -1,0 +1,35 @@
+﻿
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr;
+    grid-template-areas:'autosell'
+                        'header_buttons'
+}
+
+#autosell{
+    display: grid;
+    grid-area:autosell;
+    font-size: 4vw;
+    grid-template-columns: 1fr;
+    grid-template-areas: 'name';
+    text-align: center;
+}
+
+.logo{
+    display:none;
+}
+
+.head_button p{
+    font-size: 6vw;
+    margin: 0;
+}
+
+.head_button{
+    border:0;
+    border-left: 1px solid #ffecf3;
+    border-right: 1px solid #ffecf3;
+    height:100% ;
+    width:50%;
+    margin:0;
+}

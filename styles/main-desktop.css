@@ -1,0 +1,56 @@
+﻿p {
+    font-size: 1.2vw;
+}
+
+h3 {
+    font-size: 1.7vw;
+}
+
+.grid-container {
+    display: grid;
+    grid-row-gap: 40px;
+    grid-template-columns: 0.1fr 0.4fr 0.4fr 0.1fr;
+    grid-template-rows: 0.02fr 0.6fr 0.6fr 0.6fr 0.1fr;
+    grid-template-areas: 'header header header header' '. first first .' '. second second .' '. third third .' '. fourth fourth .' 'footer footer footer footer';
+}
+
+header {
+    display: grid;
+    grid-template-columns: 0.3fr 0.4fr 0.3fr;
+    grid-template-rows: 100%;
+    grid-template-areas: 'autosell . header_buttons'
+}
+
+
+#autosell {
+    display: flex;
+    justify-content: flex-start;
+    grid-area: autosell;
+}
+
+.logo {
+    height: 3.5vw;
+    width: 5vw;
+}
+
+.head_button {
+    height: 2.8vw;
+    width: 60%;
+    margin-right: 30px;
+    margin-top: 3px;
+}
+
+.head_button p {
+    font-size: 2.2vw;
+}
+
+#name {
+    font-size: 3vw;
+}
+
+.news_img {
+    width: 50%;
+    float: left;
+    margin: 0 10px 0 0;
+    box-shadow: 1px 1px 3px 0;
+}
